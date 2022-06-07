@@ -2,12 +2,13 @@
 import './App.css';
 import Main from './Main/Main';
 import Header from './Header/Header';
+import { animals } from './data';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Main animals={animals} />
       {/* <Footer /> */}
     </div>
   );
