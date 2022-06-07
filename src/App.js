@@ -1,14 +1,15 @@
 // import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Main from './Main/Main';
 import Header from './Header/Header';
-import { animals } from './data';
+import { animalArray } from './data.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main animals={animals} />
+      <Main animals={animalArray} />
       {/* <Footer /> */}
     </div>
   );

@@ -2,5 +2,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     background-size: cover;
+    height: 640px;
     position: relative;
 }

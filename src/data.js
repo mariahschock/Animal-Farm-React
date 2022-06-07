@@ -1,4 +1,4 @@
-export const animals = [
+export const animalArray = [
   {
     name: 'Betsy the Cow',
     type: 'cow',
