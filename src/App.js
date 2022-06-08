@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header greeting="Welcome to" />
       <Main animals={animalArray} />
-      <Footer email="mariahschock@gmail.com" />
+      <Footer email="animalfarm@alchemy.com" />
     </div>
   );
 }
