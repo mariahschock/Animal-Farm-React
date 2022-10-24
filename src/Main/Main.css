@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-size: cover;
+    height: 640px;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
